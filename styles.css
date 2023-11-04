@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
+body{
+    background-image: url(web.jpg); 
+}
+.buttons{
+    text-align: center;
+}
+
+.cards{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+}
+
+.cards img{
+    width:100%;
+    height:100%;
+}
+
