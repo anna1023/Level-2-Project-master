@@ -4,8 +4,14 @@ h1{
     font-size: 50px;
 }
 
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 body{
-    background-image: url(web.jpg); 
+    background-image: url(shaymin.jpg);
 }
 .buttons{
     text-align: center;
@@ -27,3 +33,26 @@ body{
     height:100%;
 }
 
+@media (max-width: 600px){
+    h1{
+        font-size: 30px;
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1025px) {
+    body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 820px) and (min-height:1180px){
+    h1{
+        padding-top: 15%;
+    }
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
